@@ -1,0 +1,97 @@
+export type Car = {
+    carModel: string,
+    carType: string,
+    isFavorite: boolean,
+    carImageUrl: string,
+    milesPerGalon: number,
+    transmission: string,
+    seats: number,
+    currentPrice: number,
+    originalPrice?: number
+};
+
+export const cars: Car[] = [
+    {
+        carModel: 'Koenigsegg',
+        carType: 'Sport',
+        isFavorite: false,
+        carImageUrl: 'koenigsegg.png',
+        milesPerGalon: 20,
+        transmission: 'Manual',
+        seats: 2,
+        currentPrice: 99
+    },
+    {
+        carModel: 'Nissan GT-R',
+        carType: 'Sport',
+        isFavorite: true,
+        carImageUrl: 'gtr.png',
+        milesPerGalon: 15,
+        transmission: 'Manual',
+        seats: 2,
+        currentPrice: 80,
+        originalPrice: 100
+    },
+    {
+        carModel: 'Rolls-Royce',
+        carType: 'Sedan',
+        isFavorite: false,
+        carImageUrl: 'rolls-royce.png',
+        milesPerGalon: 25,
+        transmission: 'Automatic',
+        seats: 4,
+        currentPrice: 96,
+    },
+    {
+        carModel: 'Tiguan',
+        carType: 'SUV',
+        isFavorite: true,
+        carImageUrl: 'tiguan.png',
+        milesPerGalon: 30,
+        transmission: 'Automatic',
+        seats: 4,
+        currentPrice: 50,
+    },
+    {
+        carModel: 'Subaru Forester',
+        carType: 'SUV',
+        isFavorite: false,
+        carImageUrl: 'subaru.png',
+        milesPerGalon: 30,
+        transmission: 'Automatic',
+        seats: 5,
+        currentPrice: 55,
+        originalPrice: 70,
+    },
+    {
+        carModel: 'Koenigsegg',
+        carType: 'Sport',
+        isFavorite: false,
+        carImageUrl: 'koenigsegg.png',
+        milesPerGalon: 20,
+        transmission: 'Manual',
+        seats: 2,
+        currentPrice: 99
+    },
+    {
+        carModel: 'Nissan GT-R',
+        carType: 'Sport',
+        isFavorite: true,
+        carImageUrl: 'gtr.png',
+        milesPerGalon: 15,
+        transmission: 'Manual',
+        seats: 2,
+        currentPrice: 80,
+        originalPrice: 100
+    },
+    {
+        carModel: 'Tiguan',
+        carType: 'SUV',
+        isFavorite: true,
+        carImageUrl: 'tiguan.png',
+        milesPerGalon: 30,
+        transmission: 'Automatic',
+        seats: 4,
+        currentPrice: 50,
+    },
+];
