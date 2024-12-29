@@ -1,75 +1,7 @@
-# Nuxt Minimal Starter
+# Morent(Rent-a-car) - (Vue.js/Nuxt)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![LP Cover](public/Cover.png)
 
-## Setup
+This project is a Figma design implementation for the a rent-a-car web app called Morent, created by PickoLab Studio. It was built using Vue/Nuxt and styled with Tailwind CSS.
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+You can view the original Figma design here: [Figma](https://www.figma.com/design/k3bKaFHRguOtsAjz3Nfkfr/Car-Rent-Website-Design---Pickolab-Studio-(Community)).

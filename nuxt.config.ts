@@ -7,6 +7,11 @@ export default defineNuxtConfig({
     preference: 'light'
   },
   modules: ['@nuxt/ui', '@nuxt/fonts'],
+  nitro: {
+    firebase: {
+      gen: 2
+    }
+  },
   app: {
     head: {
       title: 'Rent-A-Car',
